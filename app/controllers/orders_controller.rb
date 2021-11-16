@@ -24,6 +24,7 @@ class OrdersController < ApplicationController
   def empty_cart!
     # empty hash means no products in cart :)
     update_cart({})
+    # puts 'Please go to the homepage'
   end
 
   def perform_stripe_charge
