@@ -2,6 +2,18 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+##Screenshots
+
+[About Us Page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/about-us.png?raw=true)
+
+[Login Page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/login-page.png?raw=true)
+
+[Admin products page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/admin-products.png?raw=true)
+
+[Products page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/products-page.png?raw=true)
+
+[Order Summary Page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/order-summary.png?raw=true)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
@@ -31,3 +43,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+
+
+
