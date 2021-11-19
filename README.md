@@ -4,15 +4,15 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ##Screenshots
 
-[About Us Page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/about-us.png?raw=true)
+!["About Us Page"](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/about-us.png?raw=true)
 
-[Login Page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/login-page.png?raw=true)
+!["Login Page"](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/login-page.png?raw=true)
 
-[Admin products page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/admin-products.png?raw=true)
+!["Admin products page"](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/admin-products.png?raw=true)
 
-[Products page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/products-page.png?raw=true)
+!["Products page"](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/products-page.png?raw=true)
 
-[Order Summary Page](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/order-summary.png?raw=true)
+!["Order Summary Page"](https://github.com/mohammed-alialhassan/Jungle-on-rails/blob/master/docs/order-summary.png?raw=true)
 
 ## Additional Steps for Apple M1 Machines
 
