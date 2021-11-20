@@ -107,13 +107,5 @@ RSpec.describe User, type: :model do
 
       expect(User.authenticate_with_credentials('strawhat@gmail.com','onepiece')).to eq(@user)
     end
-
-    it  "returns an instance of the user model if an existing user tries to login with the correct email(with some extra whitespace characters added to the start of the input) and correct password" do
-    @user = User.new({password: 'onepiece', password_confirmation: 'onepiece', email: 'strawhat@gmail.com', first_name: "Strawhat", last_name: "Luffy" })
-
-    @user.save
-
-    expect(User.authenticate_with_credentials('strawhat@gmail.com','onepiece')).to eq(@user)
-  end
 end
 end
