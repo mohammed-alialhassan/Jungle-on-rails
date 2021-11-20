@@ -54,15 +54,6 @@ RSpec.describe User, type: :model do
       expect(@user.errors.full_messages).to include("Password is too short (minimum is 5 characters)")
     end 
 
-
-    it "should display password confirmation can't be less than 5 characters!" do 
-      @user = User.new({password: "hi", password_confirmation: "hi", email: 'strawhat@gmail.com', first_name: "Strawhat", last_name: "Luffy" })
-
-      @user.valid?
-      expect(@user.errors.full_messages).to include("Password is too short (minimum is 5 characters)")
-    end 
-
-
     it "should display password does not match the password confirmation" do 
       @user = User.new({password: "onepiece", password_confirmation: "hi", email: 'strawhat@gmail.com', first_name: "Strawhat", last_name: "Luffy" })
 
@@ -107,5 +98,13 @@ RSpec.describe User, type: :model do
 
       expect(User.authenticate_with_credentials('strawhat@gmail.com','onepiece')).to eq(@user)
     end
+
+    it  "returns an instance of the user model if an existing user tries to login with the correct email(with some extra whitespace characters added to the start of the input) and correct password" do
+    @user = User.new({password: 'onepiece', password_confirmation: 'onepiece', email: 'strawhat@gmail.com', first_name: "Strawhat", last_name: "Luffy" })
+
+    @user.save
+
+    expect(User.authenticate_with_credentials('strawhat@gmail.com','onepiece')).to eq(@user)
+  end
 end
 end
